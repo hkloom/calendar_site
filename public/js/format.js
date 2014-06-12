@@ -20,7 +20,6 @@ var extract = function(entry){
 	var lines = entry.split("\n");
 	var commitments = [];
 	for (var i in lines){
-		var mystring = "one,two,three";
 		var matches = lines[i].split(',');
 		if (matches.length != 3){
 			//they entered the wrong format
